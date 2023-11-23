@@ -1,0 +1,2 @@
+#! /bin/bash
+openssl  des3 -iter 7 < $1 > $1.bin
